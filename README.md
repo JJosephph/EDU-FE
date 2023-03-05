@@ -1,4 +1,4 @@
-# {{ name }}
+# {{ EduWebSite-FrontEnd }}
 
 > {{ description }}
 
