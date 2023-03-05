@@ -38,11 +38,11 @@
                         :alt="course.title"
                       >
                       <div class="cc-mask">
-                        <a href="#" title="开始学习" class="comm-btn c-btn-1">开始学习</a>
+                        <a href="/course/1" title="开始学习" class="comm-btn c-btn-1">开始学习</a>
                       </div>
                     </section>
                     <h3 class="hLh30 txtOf mt10">
-                      <a href="#" :title="course.title" class="course-title fsize18 c-333">{{course.title}}</a>
+                      <a href="/course/1" :title="course.title" class="course-title fsize18 c-333">{{course.title}}</a>
                     </h3>
                     <section class="mt10 hLh20 of">
                       <span class="fr jgTag bg-green" v-if="Number(course.price) === 0">
@@ -61,7 +61,7 @@
               <div class="clear"></div>
             </article>
             <section class="tac pt20">
-              <a href="#" title="全部课程" class="comm-btn c-btn-2">全部课程</a>
+              <a href="/course" title="全部课程" class="comm-btn c-btn-2">全部课程</a>
             </section>
           </div>
         </section>
@@ -103,7 +103,7 @@
               <div class="clear"></div>
             </article>
             <section class="tac pt20">
-              <a href="#" title="全部讲师" class="comm-btn c-btn-2">全部讲师</a>
+              <a href="/teacher" title="全部讲师" class="comm-btn c-btn-2">全部讲师</a>
             </section>
           </div>
         </section>
