@@ -20,7 +20,7 @@ export default {
   getCourseInfo(id) {
     return request({
       url: '/eduservice/frontcourse/getFrontCourseInfo/'+id,
-      method: 'get'
+      method: 'post'
     })
   }
 

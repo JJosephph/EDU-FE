@@ -26,7 +26,7 @@
             <router-link to="/article" tag="li" active-class="current">
               <a>内容智库</a>
             </router-link>
-            <router-link to="/question" tag="li" active-class="current">
+            <router-link to="/chatgpt" tag="li" active-class="current">
               <a>名师答疑</a>
             </router-link>
           </ul>
@@ -154,10 +154,17 @@
   </div>
 </template>
 <script>
-import "~/assets/css/reset.css";
-import "~/assets/css/theme.css";
-import "~/assets/css/global.css";
-import "~/assets/css/web.css";
+import '~/assets/css/reset.css'
+import '~/assets/css/theme.css'
+import '~/assets/css/global.css'
+import '~/assets/css/web.css'
+import '~/assets/css/base.css'
+import '~/assets/css/activity_tab.css'
+import '~/assets/css/bottom_rec.css'
+import '~/assets/css/nice_select.css'
+import '~/assets/css/order.css'
+import '~/assets/css/swiper-3.3.1.min.css'
+import "~/assets/css/pages-weixinpay.css"
 
 import cookie from "js-cookie";
 
