@@ -1,6 +1,6 @@
 <template>
     <iframe class="chat"
-        src="https://gofly.v1kf.com/vue/index.html#/chatGPT?secret=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"
+        src="https://gofly.v1kf.com/vue/index.html#/chatGPT?secret=your open ai ACCESS_KEY_PASSWORD"
       >
       </iframe>
 </template>
