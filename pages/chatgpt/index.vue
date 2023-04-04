@@ -1,6 +1,6 @@
 <template>
     <iframe class="chat"
-        src="https://gofly.v1kf.com/vue/index.html#/chatGPT?secret=your open ai ACCESS_KEY_PASSWORD"
+        src="https://chat-gpt-next-web-nine-topaz-40.vercel.app"
       >
       </iframe>
 </template>
