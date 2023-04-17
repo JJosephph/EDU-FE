@@ -1,6 +1,6 @@
 <template>
     <iframe class="chat"
-        src="https://chat-gpt-next-web-nine-topaz-40.vercel.app"
+        src="https://chatbot.theb.ai/#/chat/"
       >
       </iframe>
 </template>
